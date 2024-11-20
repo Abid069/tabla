@@ -1,0 +1,58 @@
+html {
+  font-family: sans-serif;
+}
+
+table {
+  border-collapse: collapse;
+  border: 2px solid rgb(20, 20, 20);
+  letter-spacing: 1px;
+  font-size: 0.8rem;
+  width: 100%;
+  margin: 20px auto;
+}
+
+td, th {
+  border: 1px solid rgb(20, 20, 20);
+  padding: 10px 20px;
+  color: #000;
+}
+
+td {
+  text-align: center;
+}
+
+h1, h4 {
+  text-align: center;
+}
+
+caption {
+  padding: 10px;
+  color: #333;
+}
+
+.MP04 { background-color: #FFCCCC; }
+.MP06 { background-color: #ffee02; }
+.MP07 { background-color: #91ce04d3; }
+.MP08 { background-color: #610c0c; }
+.MP10 { background-color: #678ad4a4; }
+.MP12 { background-color: #5d07a3; }
+.P  { background-color: #ffffff; }
+.S  { background-color: #757373; }
+.V  { background-color: #3f86e2; }
+.T { background-color: #1f1f1f; color: #fff; }
+
+table.highlighted tbody tr:nth-child(odd) { 
+  background-color: #24b0e7; 
+}
+
+table.highlighted tbody tr:nth-child(even) { 
+  background-color: #ffffff; 
+}
+
+table.highlighted th:first-child, table.highlighted td:first-child {
+  margin-left: 5px;
+}
+
+table.highlighted th:last-child, table.highlighted td:last-child {
+  margin-right: 5px;
+}
